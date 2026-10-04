@@ -30,7 +30,7 @@
 <安装目录>\messages\zh_CN\
 ```
 
-> 默认路径通常是 `C:\Program Files (x86)\VMware\VMware Workstation\messages\zh_CN\`。
+> 默认路径通常是 `C:\Program Files\VMware\VMware Workstation\messages\zh_CN\`。
 > 如果 `zh_CN` 文件夹不存在，请手动创建。
 
 **在替换前，请务必备份原有的 3 个文件**（如果存在）：
