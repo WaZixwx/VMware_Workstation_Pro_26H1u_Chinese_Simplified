@@ -110,9 +110,9 @@ pref.locale = "zh_CN"
 
 1. 从官方安装包中解压提取西班牙语语言包（`vmui_es.dll`、`vmappsdk_es.dll`、`vmware.vmsg_es`）
 2. 将西班牙语文件重命名为简体中文对应文件名（`vmui_zh_CN.dll`、`vmappsdk_zh_CN.dll`、`vmware.vmsg`）
-3. 使用 **Resource Hacker** 逐条翻译以下资源：
-   - `vmui_zh_CN.dll`：14 个 Menu + 10 个 Dialog
-   - `vmappsdk_zh_CN.dll`：10 个 Menu + 38 个 Dialog + String Table
+3. 使用 **Resource Hacker** 逐条翻译以下资源（共 14 个 Menu、48 个 Dialog、1 个 String Table）：
+   - `vmui_zh_CN.dll`：**4 个 Menu** + 10 个 Dialog
+   - `vmappsdk_zh_CN.dll`：**10 个 Menu** + 38 个 Dialog + String Table
 4. 使用 **VS Code** 手动翻译 `vmware.vmsg` 中 686KB 的动态文本
 5. 针对中文长度逐一调整控件宽度和高度，避免文字截断
 6. 编译保存，替换回 `messages\zh_CN\` 目录
